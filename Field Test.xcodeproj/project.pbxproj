@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CFBE7661C098E39008DC110 /* Field_Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFBE7651C098E39008DC110 /* Field_Test.h */; };
+		8CFBE7681C098E39008DC110 /* Field_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CFBE7671C098E39008DC110 /* Field_Test.m */; };
+		8CFBE76A1C098E39008DC110 /* Field_Test.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8CFBE7691C098E39008DC110 /* Field_Test.tiff */; };
+		8CFBE76D1C098E39008DC110 /* Field_Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFBE76B1C098E39008DC110 /* Field_Test.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CFBE7621C098E39008DC110 /* Field Test.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field Test.prefPane"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFBE7651C098E39008DC110 /* Field_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Field_Test.h; sourceTree = "<group>"; };
+		8CFBE7671C098E39008DC110 /* Field_Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Field_Test.m; sourceTree = "<group>"; };
+		8CFBE7691C098E39008DC110 /* Field_Test.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Field_Test.tiff; sourceTree = "<group>"; };
+		8CFBE76C1C098E39008DC110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Field_Test.xib; sourceTree = "<group>"; };
+		8CFBE76E1C098E39008DC110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CFBE75E1C098E39008DC110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CFBE7581C098E39008DC110 = {
+			isa = PBXGroup;
+			children = (
+				8CFBE7641C098E39008DC110 /* Field Test */,
+				8CFBE7631C098E39008DC110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CFBE7631C098E39008DC110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CFBE7621C098E39008DC110 /* Field Test.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CFBE7641C098E39008DC110 /* Field Test */ = {
+			isa = PBXGroup;
+			children = (
+				8CFBE7651C098E39008DC110 /* Field_Test.h */,
+				8CFBE7671C098E39008DC110 /* Field_Test.m */,
+				8CFBE7691C098E39008DC110 /* Field_Test.tiff */,
+				8CFBE76B1C098E39008DC110 /* Field_Test.xib */,
+				8CFBE76E1C098E39008DC110 /* Info.plist */,
+			);
+			path = "Field Test";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CFBE75F1C098E39008DC110 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFBE7661C098E39008DC110 /* Field_Test.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CFBE7611C098E39008DC110 /* Field Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFBE7711C098E39008DC110 /* Build configuration list for PBXNativeTarget "Field Test" */;
+			buildPhases = (
+				8CFBE75D1C098E39008DC110 /* Sources */,
+				8CFBE75E1C098E39008DC110 /* Frameworks */,
+				8CFBE75F1C098E39008DC110 /* Headers */,
+				8CFBE7601C098E39008DC110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Field Test";
+			productName = "Field Test";
+			productReference = 8CFBE7621C098E39008DC110 /* Field Test.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CFBE7591C098E39008DC110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = NeoTekkLabs;
+				TargetAttributes = {
+					8CFBE7611C098E39008DC110 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8CFBE75C1C098E39008DC110 /* Build configuration list for PBXProject "Field Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CFBE7581C098E39008DC110;
+			productRefGroup = 8CFBE7631C098E39008DC110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CFBE7611C098E39008DC110 /* Field Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CFBE7601C098E39008DC110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFBE76D1C098E39008DC110 /* Field_Test.xib in Resources */,
+				8CFBE76A1C098E39008DC110 /* Field_Test.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CFBE75D1C098E39008DC110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFBE7681C098E39008DC110 /* Field_Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CFBE76B1C098E39008DC110 /* Field_Test.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CFBE76C1C098E39008DC110 /* Base */,
+			);
+			name = Field_Test.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CFBE76F1C098E39008DC110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CFBE7701C098E39008DC110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CFBE7721C098E39008DC110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Field Test/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neotekk.Field-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		8CFBE7731C098E39008DC110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Field Test/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = "Neotekk.Field-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CFBE75C1C098E39008DC110 /* Build configuration list for PBXProject "Field Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFBE76F1C098E39008DC110 /* Debug */,
+				8CFBE7701C098E39008DC110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CFBE7711C098E39008DC110 /* Build configuration list for PBXNativeTarget "Field Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFBE7721C098E39008DC110 /* Debug */,
+				8CFBE7731C098E39008DC110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CFBE7591C098E39008DC110 /* Project object */;
+}
